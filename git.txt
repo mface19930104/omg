@@ -1,0 +1,34 @@
+git --version  验证git版本       https://git-scm.com/downloads
+
+git init 初始化  这个时候在你的项目文件中有一个隐藏的 .git 文件
+
+git status 查看可监听的文件    文件是红色   
+
+git add .   监听文件   . 是添加所有文件   也可以指定某个文件  git add readme.md 
+
+git status  再次查看已经监听的文件 当前文件是 绿色的  
+
+git config --global user.name  "fly-sy"      只需要设置一次
+  
+git config --global user.email "youxiang@qq.com"  只需要设置一次
+
+git commit -m 'first' 把文件提交到本地仓库    first 是描述可以随便写  
+
+git log   查看日志     
+
+到这里本地文件就添加完毕了    
+
+如何把本地的提交到 github 或者  gitee   
+
+git remote add origin http     http 是连接的远程路径 自行替换  
+
+git push -u origin master      提交到远程的主分支  
+
+git branch    查看分支  
+
+git branch gh-pages            新建分支   
+
+git checkout gh-pages          切换到新分支 
+
+git push -u origin gh-pages    提交到分的分支
+ 
